@@ -56,3 +56,29 @@ input[type=checkbox], select{
     margin-right: 5px;
 }
 
+body {
+    background-color: #F7F7F7;
+}
+hr{
+    margin-top: 15px;
+}
+/* .separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #8f8d8d;
+}
+
+.separator:not(:empty)::before {
+    margin-right: .25em;
+  }
+  
+  .separator:not(:empty)::after {
+    margin-left: .25em;
+  } */
