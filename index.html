@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <header>
@@ -16,7 +17,7 @@
            <input type="email" placeholder="Email" class="email" id="email"/>
            <input type="password" placeholder="Password" class="pas" id="pass"/>
            <p class="forgot_P"><a href="#" style="text-decoration: none;">Forgot you password?</a></p>
-            <button class="Loginbtn" id="Loginbtn">Login</button>
+            <button class="Loginbtn" id="Loginbtn" onclick="check_Credintials()">Login</button>
             <div>
                 <input type="checkbox" id="check" name="check" value="true">
                 <label for="check">Remember me</label>
