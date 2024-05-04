@@ -1,0 +1,67 @@
+body {
+    background-color: #F0EDE5;
+    color: black;
+}
+
+.Title{
+    text-align: center;
+    font-family: monospace;
+}
+header{
+    background-color: #fff;
+    border-radius: 15px 15px 3px 3px;
+    padding: auto;
+    position: absolute;
+    top: 0;
+    width: 99.11dvw;
+}
+.formhead{
+    height: 20%;
+    max-width: auto;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+
+}
+.registration-form{
+    margin-top: 5%;
+    width: 25%;
+    height: 100%;
+    margin-left: 37%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#signup{
+    font-size: 30px;
+}
+.captcha {
+    margin-top: 5%;
+    background-color: rgba(226, 226, 223, 0.796);
+    width: 74%;
+    margin-left: 10%;
+}
+#capimg{
+    margin-right: 0%;
+}
+#name,
+#email,
+#re-email,
+#password,
+#re-passowrd{
+    height: 35px;
+    width: 90%;
+    margin-top: 2%;
+}
+.userinput{
+    margin-left: 5%;
+}
+#btncreate-account{
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 35px;
+    width: 90%;
+    background-color: rgb(55, 202, 55);
+    color: white;
+}

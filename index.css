@@ -20,6 +20,9 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+#capimg{
+    margin-right: 0%;
+}
 .Login_Form_cont{
     padding: 20px;
     background-color: white;
@@ -30,7 +33,4 @@ input{
     display: block;
     width: 80%;
     padding: 12px 20px;
-}
-body {
-    background-color: #F7F7F7;
 }
