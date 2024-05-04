@@ -5,15 +5,16 @@ body {
 
 .Title{
     text-align: center;
+    font-size: 40px;
     font-family: monospace;
 }
 header{
-    background-color: #fff;
+    background-color: white;
     border-radius: 15px 15px 3px 3px;
-    padding: auto;
+    padding: 10px;
     position: absolute;
     top: 0;
-    width: 99.11dvw;
+    width: 98dvw;
 }
 .formhead{
     height: 35%;
@@ -27,7 +28,7 @@ header{
 
 }
 .registration-form{
-    margin-top: 5%;
+    margin-top: 9%;
     width: 25%;
     height: 100%;
     margin-left: 37%;
