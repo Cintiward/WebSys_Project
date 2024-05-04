@@ -1,5 +1,5 @@
 body {
-    background-color: #F0EDE5;
+    background-color: #F7F7F7;
     color: black;
 }
 
@@ -16,13 +16,14 @@ header{
     width: 99.11dvw;
 }
 .formhead{
-    height: 20%;
+    height: 35%;
     max-width: auto;
     font-size: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: #fffcfc;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 
 }
 .registration-form{
@@ -32,19 +33,31 @@ header{
     margin-left: 37%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
 }
 #signup{
     font-size: 30px;
 }
 .captcha {
     margin-top: 5%;
-    background-color: rgba(226, 226, 223, 0.796);
-    width: 74%;
+    background-color: #F7F7F7;
+    width: 77%;
+    height: 100px;
     margin-left: 10%;
+    justify-content: space-between; 
+    align-items: center;
+    display: flex;
 }
-#capimg{
-    margin-right: 0%;
+.capbox{
+    margin-left: 5%;
 }
+.capimage{
+    margin-right: 5%;
+}
+#checkbox{
+    transform: scale(2);
+}
+
 #name,
 #email,
 #re-email,
@@ -62,6 +75,14 @@ header{
     margin-top: 5%;
     height: 35px;
     width: 90%;
-    background-color: rgb(55, 202, 55);
+    background-color: black;
     color: white;
 }
+#terms{
+    margin-left: 5%;
+}
+a {
+    text-decoration: none; 
+    color: blue;
+}
+
