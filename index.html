@@ -7,16 +7,22 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="header">
+    <header>
         <h1 class="Title">CrowdFund</h1>
-    </div>
+    </header>
     <div class="content">
         <div class="Login_Form_cont">
            <h1 id="loginTitle">Login</h1>
            <input type="text" placeholder="Email" class="email" id="email"/>
            <input type="password" placeholder="Password" class="pas" id="pass"/>
-           <p class="forgot_P"><a src="#">Forgot you password?</a></p>
-
+           <p class="forgot_P"><a href="#" style="text-decoration: none;">Forgot you password?</a></p>
+            <button class="Loginbtn" id="Loginbtn">Login</button>
+            <div>
+                <input type="checkbox" id="check" name="check" value="true">
+                <label for="check">Remember me</label>
+            </div>
+            <hr>
+            <p>New to CrownFund? <a href="#" style="text-decoration: none;">Sing in</a></p>
         </div>
     </div>
 </body>
