@@ -8,24 +8,27 @@
     <script src="index.js"></script>
 </head>
 <body>
+    <h1></h1>
     <header>
         <h1 class="Title">CrowdFund</h1>
     </header>
     <div class="content">
         <div class="Login_Form_cont">
-           <h1 id="loginTitle">Login</h1>
-           <input type="email" placeholder="Email" class="email" id="email"/>
-           <input type="password" placeholder="Password" class="pas" id="pass"/>
-           <p class="forgot_P"><a href="#" style="text-decoration: none;">Forgot you password?</a></p>
-            <button class="Loginbtn" id="Loginbtn" onclick="check_Credintials()">Login</button>
-            <div>
-                <input type="checkbox" id="check" name="check" value="true">
-                <label for="check">Remember me</label>
-            </div>
-            <hr>
-            <p>New to CrownFund? <a href="register.html" style="text-decoration: none;">Sing in</a></p>
-            <hr>
-            <p><a href="https://policies.google.com/terms" target="_blank" style="text-decoration: none;">Terms of Service</a></p>
+            <form action="index.php" method="post" onsubmit="check_Credintials()">
+                <h1 id="loginTitle">Login</h1>
+                <input type="email" placeholder="Email" class="email" id="email" name="email"/>
+                <input type="password" placeholder="Password" class="pas" id="pass" name="pass"/>
+                <p class="forgot_P"><a href="#" style="text-decoration: none;">Forgot you password?</a></p>
+                <input type="submit" class="Loginbtn" id="Loginbtn" value="Login">
+                <div>
+                    <input type="checkbox" id="check" name="check" value="true">
+                    <label for="check">Remember me</label>
+                </div>
+                <hr>
+                <p>New to CrownFund? <a href="register.html" style="text-decoration: none;">Sing in</a></p>
+                <hr>
+                <p><a href="https://policies.google.com/terms" target="_blank" style="text-decoration: none;">Terms of Service</a></p>
+            </form>
         </div>
     </div>
 </body>
